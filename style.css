@@ -1,0 +1,59 @@
+button {
+  height: 100px;
+  width: 50px;
+}
+button.boat {
+  width: 300px;
+}
+button.resetBtn {
+  height: 40px;
+  width: 80px;
+}
+.leftMonk {
+  display: none;
+}
+.leftCannible {
+  display: none;
+}
+
+.victory {
+  display: none;
+}
+.defeat {
+  display: none;
+}
+.img1 {
+  position: relative;
+  animation-name: boat1;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes boat1 {
+  0% {
+    left: 80px;
+    top: 0px;
+  }
+  100% {
+    left: -80px;
+    top: 0px;
+  }
+}
+
+.img2 {
+  position: relative;
+  animation-name: boat2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes boat2 {
+  0% {
+    left: -80px;
+    top: 0px;
+  }
+  100% {
+    left: +80px;
+    top: 0px;
+  }
+}
